@@ -38,5 +38,5 @@ app.get('/items/new', async (req, res) => {
 })
 
 app.listen(3000, () => {
-    console.log('Running in port http://localhost:3000/items');
+    console.log('Running in http://localhost:3000/items');
 })
